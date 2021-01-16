@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarGalery.DataAccess", "CarGalery.DataAccess\CarGalery.DataAccess.csproj", "{84A73701-7B1B-4CDF-B93E-2507DDBF2A39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarGalery.Entities", "CarGalery.Entities\CarGalery.Entities.csproj", "{3E562F05-05EB-435A-BB73-890C784A3788}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84A73701-7B1B-4CDF-B93E-2507DDBF2A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A73701-7B1B-4CDF-B93E-2507DDBF2A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A73701-7B1B-4CDF-B93E-2507DDBF2A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A73701-7B1B-4CDF-B93E-2507DDBF2A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E562F05-05EB-435A-BB73-890C784A3788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E562F05-05EB-435A-BB73-890C784A3788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E562F05-05EB-435A-BB73-890C784A3788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E562F05-05EB-435A-BB73-890C784A3788}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C662A64-CD93-4B30-9583-881C18688D59}
+	EndGlobalSection
+EndGlobal
