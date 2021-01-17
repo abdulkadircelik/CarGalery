@@ -12,7 +12,11 @@ namespace CarGalery.DataAccess.Concrete.EntityFramework
             optionsBuilder)
         {
             optionsBuilder
-               .UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=LibraryDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+               .UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;
+        Initial Catalog=CarDB;Integrated Security=True;
+        Connect Timeout=30;Encrypt=False;
+        TrustServerCertificate=False;ApplicationIntent=ReadWrite;
+        MultiSubnetFailover=False");
         }
         public DbSet<Car> Cars { get; set; }
     }
